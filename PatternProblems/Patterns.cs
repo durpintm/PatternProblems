@@ -17,9 +17,9 @@
 
         public void Pattern2()
         {
-            for(int i = 0;i <= 5; i++)
+            for (int i = 0; i <= 5; i++)
             {
-                for( int j = 0;j < i; j++)
+                for (int j = 0; j < i; j++)
                 {
                     Console.Write("*");
                 }
@@ -34,11 +34,38 @@
             {
                 for (int j = 0; j < i; j++)
                 {
-                    Console.Write(j+1);
+                    Console.Write(j + 1);
                 }
 
                 Console.WriteLine("\n");
             }
         }
+
+        public void Pattern4()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write(i + 1);
+                }
+
+                Console.WriteLine("\n");
+            }
+        }
+
+        public void Pattern5()
+        {
+            for (int i = 5; i > 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write("* ");
+                }
+
+                Console.WriteLine("\n");
+            }
+        }
+
     }
 }
