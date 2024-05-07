@@ -67,5 +67,42 @@
             }
         }
 
+        public void Pattern6()
+        {
+            for (int i = 5; i > 0; i--)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(j + 1 + " ");
+                }
+
+                Console.WriteLine("\n");
+            }
+        }
+
+        public void Pattern7()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5-i-1 ; j++)
+                {
+                    Console.Write( " ");
+                }
+
+                for (int j = 0; j < 2 * i + 1 ; j++)
+                {
+                    Console.Write("*");
+                }
+
+                for (int j = 0; j < 5 - i - 1 ; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+
     }
 }
